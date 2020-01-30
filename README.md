@@ -161,7 +161,7 @@ What's more, I've just realised I haven't actually run the system end-to-end yet
 <br />
 ...
 <br />
-No. But only because the GameClient was calling the GameServer too frequently, which caused the GameServer to become unavailable - maybe I should have put in some end-to-end tests (I would have in production). However, once that small problem was fixed, the services ran together perfectly: the testing had proven the business logic of the services and their integration to the extent that (after the calling frequency was fixed) they ran together as expected!
+No. But only because the GameClient was calling the GameServer too frequently, which swamped GameServer such that it became unavailable - maybe I should have put in some end-to-end tests (I would have in production). However, once that small problem was fixed, the services ran together perfectly: the testing had proven the business logic of the services and their integration to the extent that (after the calling frequency was fixed) they ran together as expected!
 
 ## Running the System
 ### Build
